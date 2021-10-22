@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/pages/home.dart';
 
 void main() => runApp(TravelApp());
 
@@ -8,7 +9,7 @@ class TravelApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => Menu(),
+        '/': (context) => Home(),
       },
     );
   }
